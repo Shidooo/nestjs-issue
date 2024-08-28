@@ -1,0 +1,24 @@
+{
+  "name": "intellitrans-backend",
+  "author": "Julien Defferrard",
+  "private": true,
+  "packageManager": "pnpm@8.6.10",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --check \"**/*.{ts,tsx,md}\"",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3",
+    "tsconfig": "workspace:*",
+    "turbo": "^2.0.7"
+  }
+}
